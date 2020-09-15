@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" 
+      type="image/png" 
+      href="Csr.png">
+    <title>Caesar</title>
+    <style>
+        @font-face { font-family: Big; src: url('DoughnutMonsterG-o2wx.ttf'); } 
+        p{
+            font-family: Big;
+            font-size: 72px;
+        }
+        #result-container{
+            word-break: break-all;
+            text-align: center;
+        }
+        #input{
+            font-family: 'Ranchers', cursive;
+            height: 80px;
+            font-size: 50px;
+            text-align: center;
+            border-radius: 8px;
+            border-width: 2px;
+        }
+        #input:focus{
+            border-radius: 8px;
+            outline: none;
+        }
+        #input-container{
+            margin-top: 17%;
+            width: 100%;
+            text-align: center;;
+        }
+    </style>
+</head>
+<body>
+    <div id = 'input-container'>
+        <input type="text" id="input">
+    </div>
+    <div id = 'result-container'>
+        <p id = 'result'></p> 
+    </div>  
+    <script src="caesar.js"></script>
+</body>
+</html>
